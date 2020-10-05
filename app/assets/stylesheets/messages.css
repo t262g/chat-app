@@ -18,12 +18,16 @@
   height: 100px;
   padding: 0 20px;
   background-color: #253141;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .chat-index{
   height: calc(100vh - 100px);
   background-color: #2f3e51;
   padding: 0 20px;
+  overflow: scroll;
 }
 
 .chat-top{
@@ -42,4 +46,30 @@
   height: 90px;
   background-color: #dddddd;
   padding: 20px 40px;
+}
+
+.user-name a{
+  font-size: 16px;
+  color: #fafafa;
+  text-decoration: none;
+}
+
+.make-chat{
+}
+
+.make-chat a{
+  padding: 14px;
+  border: 1px solid lightblue;  
+  font-size: 10px;
+  color: deepskyblue;
+  text-decoration: none;
+}
+
+.room-name{
+  padding: 20px 0 40px;
+}
+
+.room-name a{
+  color: white;
+  text-decoration: none;
 }
