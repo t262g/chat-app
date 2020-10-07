@@ -122,11 +122,11 @@
   color: #434a54;
 }
 
-.form-input{
+.form{
   display:flex;
 }
 
-.sending-form{
+.form-input{
   background-color: white;
   width: 100%;
   margin-right: 15px;
@@ -134,13 +134,13 @@
   justify-content: space-between;
 }
 
-.message-form{
+.form-message{
   padding: 10px;
   color: #dddddd;
   border: none;
 }
 
-.message-submit{
+.form-submit{
   padding: 0 20px;
   background-color: #38aef0;
   color: white;
