@@ -6,6 +6,7 @@ class MessagesController < ApplicationController
   end
 
   def create
+    #form_withで必要になるため@roomも定義している
     @room =Room.find(params[:room_id])
     @message = Message.new(message_params)
     if @message.save
