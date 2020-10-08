@@ -6,8 +6,8 @@ class MessagesController < ApplicationController
   end
 
   def create
-    #form_withで必要になるため@roomも定義している
-    @room =Room.find(params[:room_id])
+    #renderからも必要になるためform_withの部分とともに@を付けて定義している
+    @room = Room.find(params[:room_id])
     @message = Message.new(message_params)
     if @message.save
       redirect_to room_messages_path(@room)
