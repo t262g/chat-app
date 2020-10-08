@@ -135,17 +135,18 @@
 }
 
 .form-message{
+  width: 100%;
+  border: none;
   padding: 10px;
   color: #dddddd;
-  border: none;
 }
 
 .form-submit{
-  padding: 0 20px;
   background-color: #38aef0;
+  border: none;
   color: white;
   font-size: 16px;
-  border: none;
+  padding: 0 20px;
 }
 
 .form-image {
