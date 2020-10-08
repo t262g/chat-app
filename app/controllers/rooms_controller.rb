@@ -8,6 +8,7 @@ class RoomsController < ApplicationController
   end
 
   def create
+    #renderからも必要になるためform_withの部分とともに@を付けて定義している    
     @room = Room.new(room_params)
     if @room.save
       redirect_to root_path
